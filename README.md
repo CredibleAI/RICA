@@ -34,13 +34,23 @@ Strong candidates typically have:
 
 Projects are developed jointly with mentors and span the topics studied at the Centre for Credible AI. A list of mentors and example project ideas will be published ahead of each application cycle.
 
+### Summer 2026
+
+- Automatic Autism Spectrum Disorder detection based on amateur videos with children, [more...](2026_KKS_ASD.md)
+- From Actions to Meaning: Do AI Models Build World Models? [more...](2026_MSW_Meaning.md)
+- Reliable Multi-Agent Reasoning with Verifiable Rewards, [more...](2026_TST_Reliable.md)
+- Stress-testing AI solutions in LDCT lung cancer diagnostics, [more...](2026_BSO_sybil.md)
+
 ## How to Apply
 
 Application details, deadlines, and instructions will be announced before each annual call. Please check this repository or the Centre's website for the most up-to-date information.
 
-## Contact
+### Summer 2026
 
-For questions about the program, please reach out to the Centre for Credible AI.
+Applications for the programme can be submitted by 30 May via the [form](link)
+
+We will contact the selected candidates by 7 June
+
 
 ---
 
