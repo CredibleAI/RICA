@@ -1,6 +1,6 @@
 # Training an RLHF agent to play Ortho at the Copernicus Science Centre
 
-**Mentor**: [Przemyslaw Biecek](https://scholar.google.pl/citations?user=i0N4lY8AAAAJ&hl=en&oi=ao)
+**Mentor**: [Przemyslaw Biecek](https://scholar.google.pl/citations?user=Af0O75cAAAAJ&hl=en&oi=ao)
 
 
 Games have long served as a proving ground for artificial intelligence, from chess and Go to modern video games. Beyond benchmarks, however, games deployed in public spaces offer something far more valuable: a setting where AI agents interact with real, non-expert humans. Ortho, an interactive game featured at the[Copernicus Science Centre in Warsaw, provides exactly such a setting — a compact, well-defined game played by visitors of all ages and skill levels every day.
