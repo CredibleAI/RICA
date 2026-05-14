@@ -45,13 +45,15 @@ Projects are developed jointly with mentors and span the topics studied at the C
 
 ## How to Apply
 
-Application details, deadlines, and instructions will be announced before each annual call. Please check this repository or the Centre's website for the most up-to-date information.
-
 ### Summer 2026
 
-Applications for the programme can be submitted by 30 May via the [form](link)
+Applications for the programme can be submitted by 30 May via the [google form](https://forms.gle/rs2MwbtxFqJTMjfXA)
 
 We will contact the selected candidates by 7 June
+
+## Q&A
+
+If you have any questions about the RICA programme, please report them as an issue in this GitHub repository: https://github.com/CredibleAI/RICA/issues
 
 
 ---
