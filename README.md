@@ -41,6 +41,7 @@ Projects are developed jointly with mentors and span the topics studied at the C
 - Reliable Multi-Agent Reasoning with Verifiable Rewards, [more...](2026_TST_Reliable.md)
 - Stress-testing AI solutions in LDCT lung cancer diagnostics, [more...](2026_BSO_sybil.md)
 - Training an RLHF agent to play Ortho at the Copernicus Science Centre, [more...](2026_PBI_Ortho.md)
+- Building Modelpedia: infrastructure for a shared repository of model findings, [more...](2026_PBI_ModelS.md)
 
 ## How to Apply
 

@@ -1,0 +1,22 @@
+# Building Modelpedia: infrastructure for a shared repository of model findings
+
+**Mentor**: [Przemyslaw Biecek](https://scholar.google.pl/citations?hl=en&user=Af0O75cAAAAJ)
+
+Foundation models are now deployed at a scale that exceeds the populations of most countries, yet our understanding of how they actually work lags far behind our ability to ship them. Findings about specific model behaviours — that a vision model relies on hospital artefacts rather than pathology, that a language model encodes geographic biases in particular attention heads, that a clinically deployed risk-prediction model is sensitive to the position of medical devices — currently live scattered across publications, blog posts, and internal documents. When one team uncovers such a finding, the knowledge rarely propagates to others working on related models, simply because there is no established platform on which it can be published, linked, and reused.
+
+Our recent position paper, *The Case for Model Science*, argues that closing this adoption–understanding gap requires consolidating fragmented analysis efforts into a coherent discipline, supported by shared infrastructure for datasets, models, and findings. A central piece of this infrastructure is a Wikipedia-style platform — a *Modelpedia for findings* — where each entry documents a single finding about a specific model version, structured around a shared ontology of behaviours (shortcuts, circuits, biases, failure modes, hallucinations), linked to reproducible artefacts, and tagged with the perspective it addresses (Verify, Explore, Steer, Refine). Useful precedents exist in adjacent fields: MITRE ATT&CK organises thousands of adversarial techniques into a continuously updated matrix that has become an industry standard, and Neuronpedia catalogues sparse autoencoder features across models so that researchers can explore and annotate mechanistic findings collaboratively. No equivalent yet exists for model findings in the broader sense.
+
+This project will lay the technical foundations of such a platform. The work centres on the data model and the infrastructure that surrounds it: how a finding is represented, how it is linked to the model instance and dataset it concerns, how lineage between model versions and derivative models is captured, and how the resulting graph can be queried, browsed, and contributed to by a community. The goal of the fellowship is not to produce a finished product, but a credible technical prototype — sufficient to host a seed collection of real findings, demonstrate the value of structured cataloguing, and serve as a basis for further development.
+
+Work on this project will follow a multi-stage approach:
+- Surveying existing infrastructure (Hugging Face model cards, Neuronpedia, Ecosystem Graphs, Model Atlas, OpenML, datasheets for datasets) and distilling the design requirements for a findings repository that integrates with, rather than duplicates, what already exists.
+- Designing a shared ontology and schema for findings, covering behaviour types (shortcuts, circuits, biases, failure modes), model and dataset references, evidence artefacts, and the four functional perspectives from Model Science.
+- Implementing a working backend and minimal frontend: a structured database for findings, model instances, and datasets with their relationships; an API for querying and contributing; and a browseable interface that makes the graph navigable.
+- Seeding the platform with a curated set of published findings (e.g., the medical-devices effect in Sybil, the Clever Hans effect in Fisher Vectors, tokenisation effects in CLIP, induction heads in GPT-2) to validate the schema against real cases and surface its weaknesses.
+
+Prerequisites include:
+- Proficiency in Python and comfort with building small full-stack applications (backend, database, basic frontend).
+- Familiarity with data modelling: relational schemas, graph databases, or knowledge-graph representations.
+- Working understanding of modern AI models and the kinds of findings that researchers produce about them (explainability, auditing, mechanistic interpretability).
+
+Experience with semantic web technologies (RDF, ontologies), prior contributions to open-source platforms, or familiarity with community-curated knowledge bases (Wikipedia, MITRE ATT&CK, Neuronpedia) is a plus. Note that not all prerequisites are required to apply; these are the main pillars the project will be based on.
